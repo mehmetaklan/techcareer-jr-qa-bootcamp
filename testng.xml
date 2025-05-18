@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MagentoFullTestSuite" parallel="false">
+
+    <test name="UserFlowTests">
+        <classes>
+            <class name="tests.RegisterTest"/>
+            <class name="tests.LoginTests"/>
+            <class name="tests.ForgotPasswordTest"/>
+            <class name="tests.SearchTest"/>
+            <class name="tests.FilterTest"/>
+            <class name="tests.AddToCartTest"/>
+            <class name="tests.EndToEndCartTest"/>
+            <class name="tests.LogoutTest"/>
+        </classes>
+    </test>
+
+</suite>
